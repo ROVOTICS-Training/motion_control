@@ -5,7 +5,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from geometry_msgs.msg import Twist
 
-class JoySubscriber(Node):
+class VectorConversion(Node):
     def __init__(self):
         super().__init__("vector_conversion")
         self.log = self.get_logger()
@@ -33,6 +33,6 @@ class JoySubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = JoySubscriber()
+    node = VectorConversion()
     rclpy.spin(node)
     rclpy.shutdown()
