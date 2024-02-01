@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "joy_subscriber = motion_control.joy_subscriber:main"
+            "vector_conversion = motion_control.vector_conversion:main"
         ],
     },
 )
