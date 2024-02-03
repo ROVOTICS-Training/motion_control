@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jhsrobo/pcorews/install/motion_control/lib/python3.10/site-packages",
+        "/home/jhsrobo/pcorews/install/core/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jhsrobo/pcorews/install/motion_control/lib/python3.10/site-packages",
+        "/home/jhsrobo/pcorews/install/core/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
